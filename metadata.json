@@ -1,0 +1,5 @@
+{
+  "name": "Phân Tích Video AI 21.11 Final",
+  "description": "Phân tích video, trích xuất khung hình và tạo prompt để tái tạo video.",
+  "requestFramePermissions": []
+}

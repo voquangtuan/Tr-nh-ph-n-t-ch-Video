@@ -199,7 +199,7 @@ const App: React.FC = () => {
         return {
           icon: <Zap className="w-6 h-6" />,
           title: "Kịch bản Viral Remix",
-          desc: "Thổi hồn vào lời thoại mới.",
+          desc: "Giữ nguyên hình ảnh gốc, AI sẽ viết lại kịch bản/lời thoại (Script) theo phong cách Viral, cuốn hút để làm mới nội dung.",
           colorClass: "text-white bg-white/10 border-white/20",
           gradient: "from-violet-500 to-indigo-600" // Match Violet Card
         };
@@ -207,7 +207,7 @@ const App: React.FC = () => {
         return {
           icon: <Film className="w-6 h-6" />,
           title: "Video nguyên bản",
-          desc: "Phân tích kỹ thuật Storyboard chính xác.",
+          desc: "Phân tích video gốc và trích xuất Storyboard kỹ thuật chính xác. Tăng tốc độ dựng phim.",
           colorClass: "text-white bg-white/10 border-white/20",
           gradient: "from-blue-500 to-indigo-600" // Match Blue Card
         };
@@ -338,7 +338,7 @@ const App: React.FC = () => {
                       
                       <h3 className="text-xl font-extrabold mb-3 text-white">Kịch bản Viral Remix</h3>
                       <p className="text-violet-100 leading-relaxed text-sm flex-grow font-medium opacity-90">
-                         Thổi hồn vào lời thoại mới.
+                         Giữ nguyên hình ảnh gốc, AI sẽ viết lại kịch bản/lời thoại (Script) theo phong cách Viral, cuốn hút để làm mới nội dung.
                       </p>
                       
                       {!analysisMode && (

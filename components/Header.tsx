@@ -26,9 +26,9 @@ const Header: React.FC<HeaderProps> = ({ onOpenApiKeyModal, onHomeClick, themeCo
             <h1 className={`text-xl font-extrabold tracking-tight leading-none uppercase text-purple-700`}>
               Trình Phân Tích Cảnh Video ✨
             </h1>
-            <span className="text-[10px] font-bold tracking-widest uppercase mt-0.5 text-slate-500">
-                Phát triển bởi <span className="bg-gradient-to-r from-orange-500 to-pink-600 bg-clip-text text-transparent font-black">FUNEDU</span>
-            </span>
+            <p className="text-[11px] font-bold mt-0.5 text-slate-500">
+                Phát triển bởi <span className="bg-gradient-to-r from-rose-500 via-orange-500 to-yellow-500 bg-clip-text text-transparent font-black text-sm ml-0.5">FUNEDU</span>
+            </p>
           </div>
         </div>
         
